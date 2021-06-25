@@ -8,12 +8,17 @@ Pessoa::Pessoa(std::string nomeRecebido, int idadeRecebido, int idRecebido)
 	id = idRecebido;
 }
 
-Pessoa::~Pessoa() 
+Pessoa::Pessoa() 
 {
 
 }
 
-std::string Pessoa::getNome() 
+Pessoa::~Pessoa()
+{
+
+}
+
+std::string Pessoa::getNome()
 {
 	return nome;
 }
@@ -26,24 +31,4 @@ int Pessoa::getIdade()
 int Pessoa::getId()
 {
 	return id;
-}
-
-void Pessoa::setDepartamento(Departamento* dpto)
-{
-	pDepartamento = dpto;
-}
-
-void Pessoa::setUniversidade(Universidade* univ)
-{
-	pUniversidade = univ;
-}
-
-std::string Pessoa::getUniversidade() 
-{
-	return pUniversidade->getNome();
-}
-
-std::string Pessoa::getDepartamento()
-{
-	return pDepartamento->getNome();
 }

@@ -142,6 +142,7 @@
     <ClInclude Include="Departamento.h" />
     <ClInclude Include="Pessoa.h" />
     <ClInclude Include="Principal.h" />
+    <ClInclude Include="Professor.h" />
     <ClInclude Include="Universidade.h" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +150,7 @@
     <ClCompile Include="Pessoa.cpp" />
     <ClCompile Include="Principal.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Professor.cpp" />
     <ClCompile Include="Universidade.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
